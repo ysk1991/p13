@@ -148,6 +148,6 @@ css: unocss
 # 展望
 
 <div class="mt-30">
-  <div class="text-center mt-2">场景化解决方案</div>
-  <div class="text-center mt-10">痛点 + 落地 + 提效</div>
+  <div class="text-center mt-2">思路：场景化解决方案</div>
+  <div class="text-center mt-10">方向：痛点 + 落地 + 提效</div>
 </div>
