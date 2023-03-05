@@ -31,51 +31,45 @@ css: unocss
 
 ---
 
-# 团队三年目标
+# 事业部工作主线
 
-我做了什么
-
-<div class="flex mt-20">
-  <div class="flex-1">
-    <h3 class="mb-5">第一年: 统一</h3>
-    <div>1. 视觉统一 - <span class="text-#f43f5e">efg-design-ui</span></div>
-    <div>2. 组件库共建 - <span class="text-#f43f5e">styleguide</span></div>
-    <div>3. 一键换肤 / 悬浮框 / 适老</div>
-    <div>4. 参与 框架 / 工具 开发</div>
-  </div>
-  <div v-click class="flex-1">
-    <h3 class="mb-5">第二年: 效能改进</h3>
-    <div>1. 元件能力升级 - <span class="text-#f43f5e">efg-design-ui</span></div>
-    <div>2. 增强组件 - <span class="text-#f43f5e">@amiibo</span></div>
-    <div>3. 业务搭建 - <span class="text-#f43f5e">群岛平台（联动表单）</span></div>
-    </div>
-  <div v-click class="flex-1">
-    <h3 class="mb-5">第三年: 场景化解决方案</h3>
-    <div>1. 业务搭建 - <span class="text-#f43f5e">群岛平台（联动表单）</span></div>
-  </div>
-</div>
-
-<style>
-  /* h1 {
-  background-color: #2b90b6;
-  background-image: linear-gradient(45deg, #4ec5d4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-} */
-</style>
+<img src="/images/threeTarget.png" />
 
 ---
 
-# 组件库统一 efg-design-ui
+# 自己的规划
 
-统一组件库只是手段之一，为了让产品、研发、设计的规范一致，认知一致
+<div class="flex mt-20">
+  <div class="flex-1 ">
+    <h3 class="mb-5 text-center">第一感受（痛点）</h3>
+    <div class="text-base">1. 产研设对产品体验认知不统一<span class="text-#f43f5e">(大量时间在讨论样式、交互)</span></div>
+     <br />
+    <div class="text-base">2. 业务组内第三方组件库版本不统一<span class="text-#f43f5e">(学习成本高)</span>  </div>
+     <br />
+    <div class="text-base">3. 业务组内无业务模版建设<span class="text-#f43f5e">(重复建设严重)</span></div>
+  </div>
+  <div v-click class="flex-1 text-center">
+   <h3 class="mb-5">计划</h3>
+    <div>形成标准的工作模式: </div>
+    <div class="ml-5"> - 产研设一体化</div>
+    <br />
+    <div>4个方面开展工作：</div>
+    <div class="ml-5"> - 视觉组件一致</div>
+    <div class="ml-5"> - 业务组件公用</div>
+    <div class="ml-5"> - 业务模板抽象</div>
+    <div class="ml-5"> - 场景搭建能力</div>
+  </div>
+</div>
+
+---
+
+# 第一年：统一视觉组件
+
+统一只是手段之一，为了让产品、研发、设计的规范一致，认知一致
 
 <div class="flex mt-20">
   <div class="flex-1 text-center">
-    <h3 class="mb-5">统一多个 antd 版本</h3>
+    <h3 class="mb-5">组件库（efg-design-ui）</h3>
     <div>1. 电税事业部 <span class="text-#f43f5e">35 例</span></div>
     <div>2. 社保事业部 <span class="text-#f43f5e">5 例</span></div>
     <div>3. 个税、数据事业部 <span class="text-#f43f5e">各 1 例</span></div>
@@ -83,7 +77,7 @@ css: unocss
 
   <div v-click class="flex-1 text-center">
     <h3 class="mb-5">提供的服务</h3>
-    <div>1. 兼容 <span class="text-#f43f5e">ie 8</span></div>
+    <div>1. <span class="text-#f43f5e">IE8 问题排查</span></div>
     <div>2. <span class="text-#f43f5e">一键换肤</span></div>
     <div>3. 组件<span class="text-#f43f5e">能力拓展</span></div>
   </div>
@@ -91,9 +85,17 @@ css: unocss
 
 ---
 
-# 组件库共建 - styleguide
+# 效果图
 
-让组件开发模式成为一种习惯
+<img src="/images/design-4.png" />
+
+---
+
+# 第一年 - 组件库共建
+
+styleguide, 让组件开发模式成为一种习惯
+
+<h6>有过事业部之间的分享</h6>
 
 <div>
   <div class="mt-14">
@@ -103,23 +105,78 @@ css: unocss
   </div>
   <div  v-click class="flex mt-10">
     <div class="flex-1 text-center">
-      <h3 class="mb-5">总局（金4）</h3>
-      <div>业务组件数量 <span class="text-#f43f5e">50 +</span></div>
-    </div>
-    <div class="flex-1 text-center">
       <h3 class="mb-5">省局</h3>
       <div>业务组件数量 <span class="text-#f43f5e">20 +</span></div>
+    </div>
+    <div class="flex-1 text-center">
+      <h3 class="mb-5">总局（金4）</h3>
+      <div>业务组件数量 <span class="text-#f43f5e">50 +</span></div>
     </div>
   </div>
 </div>
 
 ---
 
-# 业务搭建
+# 效果图
+
+<img src="/images/e-design-1.png" />
+
+---
+
+# 效果图
+
+<img src="/images/e-design-2.png" />
+
+---
+
+# 效果图
+
+<img src="/images/gt4-design.png" />
+
+---
+
+# 第二年 - 效能改进
+
+  <div class="flex mt-30">
+    <div class="flex-1 ">
+      <h3 class="mb-5 text-center">组件库能力提升</h3>
+      <div>使用率高的组件：<span class="text-#f43f5e">表格、表单、下拉选择、弹框、金额输入框等</span>进行专项能力提升</div>
+    </div>
+    <div class="flex-1 text-center">
+      <h3 class="mb-5">解决方案</h3>
+      <div>换肤 / 悬浮框 / 适老 / 国际双语</div>
+      <br />
+      <h3 class="mb-5">前端内部建设</h3>
+      <div>参与一些 脚手架 / 平台 / 规范 建设工作</div>
+    </div>
+  </div>
+---
+
+# 第二年 - 业务开发工作
+
+业务模版 - 标准业务配置化快速开发
+
+  <div class="flex mt-30">
+    <div class="flex-1 text-center">
+      <h3 class="mb-5">四川天府通办项目</h3>
+      <div><span class="text-#f43f5e">72</span> 个功能 <span class="text-#f43f5e">二周 </span>开发交付</div>
+      <div>至少节省<span class="text-#f43f5e"> 1-2周 </span>的时间成本</div>
+    </div>
+    <div class="flex-1 text-center">
+      <h3 class="mb-5">出口退税项目</h3>
+      <div><span class="text-#f43f5e">42</span> 个功能页面 <span class="text-#f43f5e">一周 </span>开发完成</div>
+      <div>至少节省<span class="text-#f43f5e"> 2名前端 </span>的人力成本</div>
+    </div>
+  </div>
+
+---
+
+# 第二年 - 业务搭建
 
 可视化表单搭建
 
 <div class="mt-20">
+  <div class="text-center mt-2"><span class="text-#f43f5e">出口退税业务全覆盖</span></div>
   <div class="text-center mt-2">落地<span class="text-#f43f5e">  40+ </span>业务功能，<span class="text-#f43f5e">  70 + </span>表单</div>
   <div class="text-center mt-2">支持<span class="text-#f43f5e"> 多种布局 </span></div>
   <div class="text-center mt-2">支持<span class="text-#f43f5e"> 校验 + 联动</span></div>
@@ -128,20 +185,9 @@ css: unocss
 
 ---
 
-# 业务模版
+# 效果图
 
-标准业务配置化快速开发
-
-  <div class="flex mt-30">
-    <div class="flex-1 text-center">
-      <h3 class="mb-5">四川天府通办项目</h3>
-      <div><span class="text-#f43f5e">72</span> 个功能 <span class="text-#f43f5e">二周 </span>开发完成</div>
-    </div>
-    <div class="flex-1 text-center">
-      <h3 class="mb-5">出口退税项目</h3>
-      <div><span class="text-#f43f5e">42</span> 个功能页面 <span class="text-#f43f5e">一周 </span>开发完成</div>
-    </div>
-  </div>
+<img src="/images/island.png" />
 
 ---
 
