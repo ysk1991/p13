@@ -68,14 +68,14 @@ css: unocss
 统一只是手段之一，为了让产品、研发、设计的规范一致，认知一致
 
 <div class="flex mt-20">
-  <div class="flex-1 text-center">
+  <div class="flex-1">
     <h3 class="mb-5">组件库（efg-design-ui）</h3>
     <div>1. 电税事业部 <span class="text-#f43f5e">35 例</span></div>
     <div>2. 社保事业部 <span class="text-#f43f5e">5 例</span></div>
     <div>3. 个税、数据事业部 <span class="text-#f43f5e">各 1 例</span></div>
   </div>
 
-  <div v-click class="flex-1 text-center">
+  <div v-click class="flex-1">
     <h3 class="mb-5">提供的服务</h3>
     <div>1. <span class="text-#f43f5e">IE8 问题排查</span></div>
     <div>2. <span class="text-#f43f5e">一键换肤</span></div>
@@ -139,7 +139,7 @@ styleguide, 让组件开发模式成为一种习惯
 
   <div class="flex mt-30">
     <div class="flex-1 ">
-      <h3 class="mb-5 text-center">组件库能力提升</h3>
+      <h3 class="mb-5 text-center">落地 + 组件库能力提升</h3>
       <div>使用率高的组件：<span class="text-#f43f5e">表格、表单、下拉选择、弹框、金额输入框等</span>进行专项能力提升</div>
     </div>
     <div class="flex-1 text-center">
@@ -191,7 +191,7 @@ styleguide, 让组件开发模式成为一种习惯
 
 ---
 
-# 展望
+# 第三年 - 展望
 
 <div class="mt-30">
   <div class="mt-2">围绕产研设一体化的体系建设，第三年，我还将负责场景化搭建的工作，把搭建的 Schema 结构做成统一的，让各事业部的业务场景可以基于一套规则做搭建。</div>
